@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('mail','MailController');
+Route::resource('home','HomeController');
+Route::resource('todolist','ToDoListController');
+Route::resource('profile','ProfileController');
